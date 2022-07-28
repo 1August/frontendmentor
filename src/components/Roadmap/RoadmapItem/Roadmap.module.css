@@ -5,9 +5,7 @@
     grid-template-columns: min-content 1fr min-content;
     grid-gap: .75rem;
 
-
     padding: 1rem 0;
-    /*width: 100%;*/
 }
 
 .roadmap__plannedItem::before{
@@ -16,5 +14,5 @@
 
 .roadmap__number{
     font-weight: 900;
-    color: dodgerblue;
+    color: var(--main-blue-color);
 }

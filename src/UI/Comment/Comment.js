@@ -12,8 +12,6 @@ export const Comment = props => {
         replies
     } = content
 
-    console.log(content)
-
     return (
         <div className={s.comment}>
             <div className={s.commentImg}>
@@ -36,7 +34,10 @@ export const Comment = props => {
             <div className={s.replies}>
                 {
                     replies?.length !== 0 && replies?.map(el => (
-                        <div className={s.reply}>
+                        <div
+                            className={s.reply}
+                            key={el.id}
+                        >
                             <Reply
                                 content={el}
                             />

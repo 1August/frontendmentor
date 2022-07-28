@@ -1,0 +1,25 @@
+.categories{
+    padding: 2rem;
+
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.categories span{
+    padding: .25rem .75rem;
+
+    background-color: var(--main-light-blue-color);
+    color: var(--main-blue-color);
+
+    border-radius: 10px;
+}
+
+.categories span[data-checked='true']{
+    background-color: var(--main-blue-color);
+    color: #fff;
+}
+
+.categories span:hover{
+    cursor: pointer;
+}

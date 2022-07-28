@@ -44,11 +44,11 @@
 }
 
 .article__mid span{
-    color: blue;
+    color: var(--main-blue-color);
 }
 
 .article__category{
-    background-color: lightblue;
+    background-color: var(--main-light-blue-color);
     border-radius: 10px;
     padding: .25rem;
 }
@@ -63,10 +63,7 @@
 .article__right img{
     width: 12px;
     height: 12px;
-    /*aspect-ratio: 1;*/
 }
-
-
 
 
 @media screen and (max-width: 768px){

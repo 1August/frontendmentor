@@ -29,10 +29,6 @@
     border-radius: 100%;
 }
 
-/*.commentBody{*/
-/*    flex: 1;*/
-/*}*/
-
 .commentHeader{
     display: flex;
     justify-content: space-between;
@@ -54,7 +50,7 @@
 
     font-weight: 700;
 
-    color: darkblue;
+    color: var(--main-dark-blue-color);
     background-color: transparent;
 
     outline: none;
@@ -64,9 +60,6 @@
 .commentContent p{
     line-height: 125%;
 }
-
-
-/* Replyies */
 
 .replies{
     grid-column: 1 / -1;

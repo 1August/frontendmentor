@@ -1,6 +1,6 @@
 import s from './AddComment.module.css'
 
-import {Button} from "../Button/Button";
+import {Button} from "../../UI/Button/Button";
 import {useState} from "react";
 
 export const AddComment = props => {

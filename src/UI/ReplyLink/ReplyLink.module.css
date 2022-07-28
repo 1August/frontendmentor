@@ -1,0 +1,7 @@
+.replyLink{
+    text-decoration: none;
+
+    color: var(--main-violet-color);
+
+    font-weight: 700;
+}

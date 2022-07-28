@@ -21,16 +21,6 @@ export const Roadmap = props => {
                         />
                     ))
                 }
-
-                {/*<div className={s.roadmap__plannedItem}>*/}
-                {/*    <p>List 1</p>*/}
-                {/*    <span className={s.roadmap__number}>5</span></div>*/}
-                {/*<div className={s.roadmap__plannedItem}>*/}
-                {/*    <p>List 2</p>*/}
-                {/*    <span className={s.roadmap__number}>5</span></div>*/}
-                {/*<div className={s.roadmap__plannedItem}>*/}
-                {/*    <p>List 3</p>*/}
-                {/*    <span className={s.roadmap__number}>5</span></div>*/}
             </div>
         </div>
 

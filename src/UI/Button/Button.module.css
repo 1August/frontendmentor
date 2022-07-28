@@ -1,11 +1,15 @@
 .button{
     padding: 1rem 2rem;
     border-radius: 10px;
-    background-color: #ae1fea;
     border: none;
     color: #fff;
+    background-color: var(--main-violet-color);
 
     user-select: none;
+}
+
+.button.blueBg{
+    background-color: var(--main-blue-color);
 }
 
 .button:hover{

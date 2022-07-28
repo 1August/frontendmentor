@@ -1,4 +1,5 @@
 import s from './Categories.module.css'
+import {CategoryItem} from "./CategoryItem/CategoryItem";
 
 export const Categories = props => {
     const {
@@ -11,14 +12,11 @@ export const Categories = props => {
         <div className={s.categories}>
             {
                 categories.length !== 0 && categories?.map(el => (
-                    <label
-                        key={el.idName + Math.random()}
-                        htmlFor={el.idName}
-                        onClick={() => handleChangeCategory(el.idName)}
-                        data-checked={el.idName === selectedCategory}
-                    >
-                        {el.label}
-                    </label>
+                    <CategoryItem
+                        selectedCategory={selectedCategory}
+                        handleChangeCategory={handleChangeCategory}
+                        el={el}
+                    />
                 ))
             }
         </div>

@@ -1,6 +1,7 @@
 import random1 from "../../assets/img/random1.jpg";
 
 import s from './Reply.module.css'
+import {ReplyLink} from "../ReplyLink/ReplyLink";
 
 export const Reply = props => {
     const {
@@ -23,7 +24,13 @@ export const Reply = props => {
                     </div>
                 </div>
                 <div className={s.replyContent}>
-                    <p><a href="">{content.replyTo}</a> {content.comment}</p>
+                    <p>
+                        <ReplyLink
+                            href={`mailto:${content.replyTo}`}
+                        >
+                            {content.replyTo}
+                        </ReplyLink> {content.comment}
+                    </p>
                 </div>
             </div>
         </div>

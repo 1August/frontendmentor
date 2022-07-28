@@ -24,10 +24,6 @@
     border-radius: 100%;
 }
 
-/*.replyBody{*/
-/*    flex: 1;*/
-/*}*/
-
 .replyHeader{
     display: flex;
     justify-content: space-between;
@@ -50,7 +46,7 @@
 
     font-weight: 700;
 
-    color: darkblue;
+    color: var(--main-dark-blue-color);
     background-color: transparent;
 
     outline: none;

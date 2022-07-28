@@ -1,3 +1,4 @@
+import './assets/css/variables.css'
 import './App.css'
 import {useEffect, useMemo, useState} from "react"
 

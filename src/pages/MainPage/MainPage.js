@@ -7,9 +7,9 @@ import s from './MainPage.module.css'
 import {Link} from "react-router-dom";
 import {Button} from "../../UI/Button/Button";
 import {Article} from "../../UI/Article/Article";
-import {Roadmap} from "../../UI/Roadmap/Roadmap";
+import {Roadmap} from "../../components/Roadmap/Roadmap";
 import {Menu} from "../../UI/Menu/Menu";
-import {Categories} from "../../UI/Categories/Categories";
+import {Categories} from "../../components/Categories/Categories";
 
 export const MainPage = props => {
     const {
