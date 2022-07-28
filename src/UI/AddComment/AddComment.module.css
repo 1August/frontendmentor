@@ -1,0 +1,31 @@
+.articlePage__addComment{
+    width: 100%;
+}
+
+.articlePage__addComment form{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.articlePage__addComment form textarea{
+    width: 100%;
+    padding: 1rem;
+
+    resize: none;
+
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+
+.articlePage__addCommentBottom{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}

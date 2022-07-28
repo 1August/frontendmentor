@@ -1,0 +1,20 @@
+.roadmap__plannedItem {
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    grid-template-columns: min-content 1fr min-content;
+    grid-gap: .75rem;
+
+
+    padding: 1rem 0;
+    /*width: 100%;*/
+}
+
+.roadmap__plannedItem::before{
+    content: '•';
+}
+
+.roadmap__number{
+    font-weight: 900;
+    color: dodgerblue;
+}

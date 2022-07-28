@@ -1,0 +1,24 @@
+
+.roadmap{
+
+}
+
+.roadmap__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: darkblue;
+}
+
+.roadmap__planned{
+    /*display: grid;*/
+    /*grid-template-columns: min-content max-content min-content;*/
+}
+
+@media screen and (max-width: 768px){
+    .roadmap{
+        /*display: none;*/
+        padding: 2rem;
+    }
+}

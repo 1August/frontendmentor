@@ -1,0 +1,46 @@
+.categories{
+    padding: 2rem;
+
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.categories input{
+    /*display: none;*/
+}
+
+
+.categories label{
+    padding: .25rem .75rem;
+
+    background-color: lightblue;
+    color: blue;
+
+    border-radius: 10px;
+
+    /*display: flex;*/
+    /*place-items: center;*/
+}
+
+/*.categories input[checked] + label{*/
+/*    background-color: blue;*/
+/*    color: #fff;*/
+/*}*/
+
+.categories label[data-checked='true']{
+    background-color: blue;
+    color: #fff;
+}
+
+.categories label:hover{
+    cursor: pointer;
+
+    box-shadow: .25rem .25rem 10px rgba(0, 0, 0, .2);
+}
+
+@media screen and (max-width: 768px) {
+    .categories{
+        /*display: none;*/
+    }
+}

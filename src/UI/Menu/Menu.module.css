@@ -1,0 +1,41 @@
+.menu{
+    display: none;
+
+    position: relative;
+
+    width: 24px;
+    aspect-ratio: 1;
+}
+
+.menu:hover{
+    cursor: pointer;
+}
+
+.menuItem{
+    position: absolute;
+    left: 0;
+    right: 0;
+
+    height: calc(100% / 5);
+
+    background-color: #fff;
+}
+
+.menuItem:nth-of-type(1){
+    top: 0;
+}
+
+.menuItem:nth-of-type(2){
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.menuItem:nth-of-type(3){
+    bottom: 0;
+}
+
+@media screen and (max-width: 768px){
+    .menu{
+        display: block;
+    }
+}

@@ -1,0 +1,17 @@
+.button{
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    background-color: #ae1fea;
+    border: none;
+    color: #fff;
+
+    user-select: none;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.button:active{
+    box-shadow: inset .25rem .25rem 10px rgba(255, 255, 255, .1), inset -.25rem -.25rem 10px rgba(0, 0, 0, .1);
+}
