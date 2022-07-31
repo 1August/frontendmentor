@@ -1,9 +1,9 @@
-import up from "../../assets/img/up-arrow.png";
-import chat from "../../assets/img/chat-bubble.png";
+import up from "../../assets/img/up-arrow.png"
+import chat from "../../assets/img/chat-bubble.png"
 
 import s from './Article.module.css'
-import {useContext} from "react";
-import {Context} from "../../Context";
+import {useContext} from "react"
+import {Context} from "../../Context"
 
 export const Article = props => {
     const {

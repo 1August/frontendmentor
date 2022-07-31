@@ -1,5 +1,5 @@
 import s from "./Roadmap.module.css"
-import {RoadmapItem} from "./RoadmapItem/RoadmapItem";
+import {RoadmapItem} from "./RoadmapItem/RoadmapItem"
 
 export const Roadmap = props => {
     const {

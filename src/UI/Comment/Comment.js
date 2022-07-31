@@ -1,7 +1,7 @@
-import random1 from "../../assets/img/random1.jpg";
+import random1 from "../../assets/img/random1.jpg"
 
 import s from './Comment.module.css'
-import {Reply} from "../Reply/Reply";
+import {Reply} from "../Reply/Reply"
 
 export const Comment = props => {
     const {

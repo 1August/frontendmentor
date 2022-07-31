@@ -1,7 +1,7 @@
 import s from './AddComment.module.css'
 
-import {Button} from "../../UI/Button/Button";
-import {useState} from "react";
+import {Button} from "../../UI/Button/Button"
+import {useState} from "react"
 
 export const AddComment = props => {
     const [comment, setComment] = useState('')

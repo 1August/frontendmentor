@@ -1,5 +1,5 @@
 import s from './ArticlePageComments.module.css'
-import {Comment} from "../../UI/Comment/Comment";
+import {Comment} from "../../UI/Comment/Comment"
 
 export const ArticlePageComments = props => {
     const {

@@ -1,8 +1,8 @@
 import s from './ArticlePageArticles.module.css'
 
-import {Article} from "../../UI/Article/Article";
-import {Context} from "../../Context";
-import {useContext} from "react";
+import {Article} from "../../UI/Article/Article"
+import {Context} from "../../Context"
+import {useContext} from "react"
 
 export const ArticlePageArticles = props => {
     const {

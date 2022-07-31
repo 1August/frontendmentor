@@ -1,9 +1,9 @@
 import s from './ArticlePageHeader.module.css'
 
-import {Button} from "../../UI/Button/Button";
+import {Button} from "../../UI/Button/Button"
 
 import left from '../../assets/img/left-arrow.png'
-import {useNavigate} from "react-router-dom";
+import {useNavigate} from "react-router-dom"
 
 export const ArticlePageHeader = props => {
     const navigation = useNavigate()

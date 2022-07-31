@@ -6,7 +6,7 @@ import {MainPage} from "./pages/MainPage/MainPage"
 import {Routes, Route} from 'react-router-dom'
 
 import {Context} from "./Context"
-import {ArticlePage} from "./pages/ArticlePage/ArticlePage";
+import {ArticlePage} from "./pages/ArticlePage/ArticlePage"
 
 const App = () => {
     const [selectedCategory, setSelectedCategory] = useState('All')
