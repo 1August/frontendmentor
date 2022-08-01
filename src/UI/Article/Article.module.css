@@ -16,7 +16,7 @@
 }
 
 .article__left{
-    background-color: lightgrey;
+    background-color: var(--main-light-blue-color);
     border-radius: 10px;
     padding: .5rem;
 }
